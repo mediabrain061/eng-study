@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="kr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Author" content="LEE SEUNG JU">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--[if lt IE 9]>
+	<script src="http://daewooju.cafe24.com/js/IE9.js"></script>
+	<script src="http://daewooju.cafe24.com/js/html5.js"></script>
+	<script src="http://daewooju.cafe24.com/js/ie8mediaquery.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<![endif]-->
+	<link rel="shortcut icon" href="http://daewooju.cafe24.com/sub_homepages/ju/images/favicon.png" type="images/png" />
+	<link rel="stylesheet" href="./css/style.css" />
+	<title>HANDMADE FABRIC</title>
+	<link rel="stylesheet" href="">
+	<style></style>
+</head>
+<body>
+	<div class="wrap">
+		<header class="cont-header">
+			<h1 class="hide">이승주 146 작업실</h1>
+			<p class="main_tlt"><a href="http://daewooju.cafe24.com/sub_homepages/ju/index.html">&nbsp;이승주</a></p>
+			<p class="introduce"><a href="http://daewooju.cafe24.com/sub_homepages/ju/index.html">&nbsp;146 작업실</a></p>
+			<div class="main_tlt_sm">
+				<p><a href="http://daewooju.cafe24.com/sub_homepages/ju/index.html"><span>&nbsp;이승주</span><span class="introduce_sm">146 작업실</span></a></p>
+
+			</div>
+		</header>
+		<aside class="cont_slide">
+			<h2 class="hide">&nbsp;preview</h2>
+			<ul class="bxslider">
+			  <li class="mainImg" >실험텍스트 추가</li>
+			  <li class="mainImg" >마스터 텍스트 추가</li>
+			  <li class="mainImg" ></li>
+			  <li class="mainImg" ></li>
+			</ul>
+		</aside>
+		<section class="cont-section">
+			<h2 class="tlt_cont">&nbsp;PRODUCTS</h2>
+			<article class="blocks_wrap">
+				<h3 class="hide">contents</h3>
+				<div class="group_item n01">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">흰색 무지 티셔츠</p>
+						<h4 class="cont_tlt">티셔츠</h4>
+					</a>
+				</div>
+				<div class="group_item n02">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">빨면 줄어드는</p>
+						<h4 class="cont_tlt">무명천</h4>
+					</a>
+				</div>
+				<div class="group_item n03">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">생지면 커다란</p>
+						<h4 class="cont_tlt">캔버스백</h4>
+					</a>
+				</div>
+				<div class="group_item n04">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">빨면 줄어드는</p>
+						<h4 class="cont_tlt">무명천</h4>
+					</a>
+				</div>
+				<div class="group_item n05">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">빨면 줄어드는</p>
+						<h4 class="cont_tlt">무명천</h4>
+					</a>
+				</div>
+				<div class="group_item n06">
+					<a href="#" onclick="return false;">
+						<div class="img"></div>
+						<p class="cont_sub">스위스에서 온</p>
+						<h4 class="cont_tlt">재봉기</h4>
+					</a>
+				</div>
+			</article>
+			<a href="return:false;" class="cont_more_btn"></a>
+		</section>
+		<section class="cont-section">
+			<h2 class="tlt_cont">&nbsp;WE</h2>
+			<article class="moving_wrap">
+				<h3 class="hide">애니메이션 텍스트 랩</h3>
+				<p class="txt_about">146 작업실에 대해...</p>
+			</article>
+		</section>
+		<footer class="footer">
+			<p class="foot_tlt">이승주</p>
+			<p class="copy">ⓒcopyright SeungJu Allright Reserved<br/>경기도 의정부시 의정부동 경의로 146번길</p>
+			<address>workplace146@gmail.com</address>
+		</footer>
+	</div>
+<script src="lib//jquery.1.11.1.min.js"></script>
+<script src="lib/jquery-ui.1.11.1.min.js"></script>
+<script src="lib//jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+	$(document).scroll(function(){
+		var sclT = $(document).scrollTop();
+		if (155 < sclT)  {
+			$(".main_tlt").slideUp(100);
+			$(".introduce").slideUp(100);
+			$(".main_tlt_sm").slideDown(500);
+		} else {
+			$(".main_tlt_sm").slideUp(100);
+			$(".introduce").slideDown(800);
+			$(".main_tlt").slideDown(500);
+		}
+	});
+</script>
+</body>
+</html>
